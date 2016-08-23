@@ -1,0 +1,138 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700';
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+	max-width: 900px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	padding: 1em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	background-color: #7d97ad;
+	height: .25em;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.col-50 {
+	width: 50%;
+	min-width: 12em;
+	margin: auto;
+
+}
+
+.col-33 {
+	width: 33%;
+	min-width: 17em;
+	margin: auto;
+	padding: .4em;
+}
+
+.col-25 {
+	width: 25%;
+	min-width: 12em;
+	margin: auto;
+}
+
+/* HEADER*/
+.header_names {
+	text-transform: uppercase;
+	text-align: right;
+	padding-right: 1em;
+ }
+
+.header_names_title {
+	font-weight: 300;
+	font-size: 2.5em;
+	padding-top: .5em;
+	margin: 0;
+}
+
+#main_logo {
+	width: 150px;
+	height: 100px;
+	margin: auto;
+	padding-left: 2em;
+}
+
+
+/*MAIN*/
+.featured_work_title, .contact_me {
+	color: #7d97ad;
+	padding-left: 1em;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.featured_items {
+	text-align: center;
+}
+
+.featured_items h3 {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.work_images {
+	width: 100%;
+	border-radius: .4em;
+}
+
+.work_titles {
+	margin-top: .3em;
+	margin-bottom: .5em;
+}
+
+#background_image {
+	max-width: 900px;
+	max-height: 400px;
+	width: 100%;
+	border-radius: .4em;
+}
+
+
+/*FOOTER*/
+.zocial {
+	font-size: 3em;
+	color: #2d3c49;
+}
+
+.container_zocial {
+	max-width: 800px;
+	text-align: center;
+	margin: auto;
+}
+
+
+
