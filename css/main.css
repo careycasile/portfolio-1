@@ -23,16 +23,6 @@ a {
 	text-decoration: none;
 }
 
-li {
-	list-style: none;
-	padding: 1em;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-}
-
 hr {
 	background-color: #7d97ad;
 	height: .25em;
@@ -48,20 +38,21 @@ hr {
 	width: 50%;
 	min-width: 12em;
 	margin: auto;
-
+	padding: 1.5em;
 }
 
 .col-33 {
 	width: 33%;
 	min-width: 17em;
 	margin: auto;
-	padding: .4em;
+	padding: 1.5em;
 }
 
 .col-25 {
 	width: 25%;
 	min-width: 12em;
 	margin: auto;
+	padding: 1.5em;
 }
 
 /* HEADER*/
@@ -92,6 +83,7 @@ hr {
 	padding-left: 1em;
 	font-weight: 400;
 	font-size: 2em;
+	margin-bottom: 0;
 }
 
 .featured_items {
