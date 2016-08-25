@@ -69,13 +69,32 @@ hr {
 	margin: 0;
 }
 
-#main_logo {
+.main_logo {
 	width: 150px;
 	height: 100px;
 	margin: auto;
 	padding-left: 2em;
 }
 
+/*Media Query For Under 630px for title*/
+@media screen and (max-width: 630px) {
+	.main_logo_div {
+		width: 100%;
+		padding-bottom: .3em;
+	}
+
+	.main_logo {
+		display: block;
+		margin: auto;
+		padding-left: 1em;
+	}
+
+	.header_names_div {
+		width: 100%;
+		text-align: center;
+		padding-top: 0;
+	}
+}
 
 /*MAIN*/
 .featured_work_title, .contact_me {
